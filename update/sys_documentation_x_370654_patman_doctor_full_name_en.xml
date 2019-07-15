@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="full_name" label="Full Name" language="en" table="x_370654_patman_doctor">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>full_name</element>
+            <help/>
+            <hint/>
+            <label>Full Name</label>
+            <language>en</language>
+            <name>x_370654_patman_doctor</name>
+            <plural>Full Names</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-11 17:54:09</sys_created_on>
+            <sys_id>1603d70edb223300b0235c7a4896194f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Full Name</sys_name>
+            <sys_package display_value="PatMan" source="x_370654_patman">0d09deb1db223300b0235c7a48961976</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="PatMan">0d09deb1db223300b0235c7a48961976</sys_scope>
+            <sys_update_name>sys_documentation_x_370654_patman_doctor_full_name_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-11 17:54:09</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

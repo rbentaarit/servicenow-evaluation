@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_370654_patman.symptom_user" name="x_370654_patman.symptom_user">6a2c2271db623300b0235c7a489619a6</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-10 20:25:50</sys_created_on>
+        <sys_id>6a2c6671db623300b0235c7a4896196b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>6a2c2271db623300b0235c7a489619a6</sys_name>
+        <sys_package display_value="PatMan" source="x_370654_patman">0d09deb1db223300b0235c7a48961976</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PatMan">0d09deb1db223300b0235c7a48961976</sys_scope>
+        <sys_update_name>sys_embedded_help_role_6a2c6671db623300b0235c7a4896196b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-10 20:25:50</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

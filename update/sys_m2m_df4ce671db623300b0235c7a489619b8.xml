@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_m2m">
+    <sys_m2m action="INSERT_OR_UPDATE">
+        <from_table>x_370654_patman_doctor</from_table>
+        <m2m_from_field>doctor</m2m_from_field>
+        <m2m_from_label>Symptoms</m2m_from_label>
+        <m2m_table>x_370654_patman_m2m_symptoms_doctors</m2m_table>
+        <m2m_to_field>symptom</m2m_to_field>
+        <m2m_to_label>Doctors</m2m_to_label>
+        <sys_class_name>sys_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-10 20:27:24</sys_created_on>
+        <sys_id>df4ce671db623300b0235c7a489619b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_370654_patman_m2m_symptoms_doctors</sys_name>
+        <sys_package display_value="PatMan" source="x_370654_patman">0d09deb1db223300b0235c7a48961976</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PatMan">0d09deb1db223300b0235c7a48961976</sys_scope>
+        <sys_update_name>sys_m2m_df4ce671db623300b0235c7a489619b8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-10 20:27:24</sys_updated_on>
+        <to_table>x_370654_patman_symptom</to_table>
+    </sys_m2m>
+</record_update>

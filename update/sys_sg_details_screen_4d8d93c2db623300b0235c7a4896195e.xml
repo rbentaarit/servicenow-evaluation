@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_details_screen">
+    <sys_sg_details_screen action="INSERT_OR_UPDATE">
+        <application_roles/>
+        <available_offline>false</available_offline>
+        <data_item display_value="Reservations Made">fcfb17c2db623300b0235c7a48961931</data_item>
+        <description/>
+        <fetch_type>not_required</fetch_type>
+        <hidden>false</hidden>
+        <icon display_value="file-alt">288d1fc2db623300b0235c7a489619d6</icon>
+        <item_view display_value="Reservations  detail item view">a48d1fc2db623300b0235c7a489619d9</item_view>
+        <name>Details</name>
+        <order>10</order>
+        <parent>b08d1b06db623300b0235c7a489619f6</parent>
+        <parent_table>sys_sg_master_item</parent_table>
+        <roles_override/>
+        <sys_class_name>sys_sg_details_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-11 18:39:56</sys_created_on>
+        <sys_id>4d8d93c2db623300b0235c7a4896195e</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Details</sys_name>
+        <sys_package display_value="PatMan" source="x_370654_patman">0d09deb1db223300b0235c7a48961976</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PatMan">0d09deb1db223300b0235c7a48961976</sys_scope>
+        <sys_update_name>sys_sg_details_screen_4d8d93c2db623300b0235c7a4896195e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-11 19:17:49</sys_updated_on>
+    </sys_sg_details_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=4d8d93c2db623300b0235c7a4896195e"/>
+</record_update>

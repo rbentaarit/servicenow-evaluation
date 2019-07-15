@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Patman M2m Symptoms Doctors" max_length="40" name="x_370654_patman_m2m_symptoms_doctors" type="collection">
+        <element label="Doctor" max_length="32" name="doctor" reference="x_370654_patman_doctor" type="reference"/>
+        <element label="Symptom" max_length="32" name="symptom" reference="x_370654_patman_symptom" type="reference"/>
+        <index name="index">
+            <element name="doctor"/>
+        </index>
+        <index name="index2">
+            <element name="symptom"/>
+        </index>
+    </element>
+</database>

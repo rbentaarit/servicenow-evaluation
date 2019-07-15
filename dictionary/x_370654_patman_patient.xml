@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Patient" max_length="40" name="x_370654_patman_patient" type="collection">
+        <element label="Date of Birth" max_length="40" name="date_of_birth" type="glide_date"/>
+        <element label="First Name" max_length="255" name="first_name" type="string_full_utf8"/>
+        <element attributes="allow_public=true,allow_tables=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return current.first_name+' '+current.last_name;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" display="true" label="full_name" max_length="50" name="full_name" read_only="true" type="string" virtual="true"/>
+        <element choice="3" label="Gender" max_length="40" name="gender" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Female" value="F"/>
+                <element inactive_on_update="false" label="Male" value="M"/>
+            </choice>
+        </element>
+        <element label="Height" max_length="20" name="height" type="decimal"/>
+        <element label="Last Name" max_length="255" name="last_name" type="string_full_utf8"/>
+        <element label="Phone Number" max_length="40" name="phone_number" type="phone_number_e164"/>
+        <element label="Weight" max_length="20" name="weight" type="decimal"/>
+    </element>
+</database>

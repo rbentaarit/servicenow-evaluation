@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script/>
+        <name>Complete Reservation AI</name>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-11 19:10:09</sys_created_on>
+        <sys_id>0490eb86db623300b0235c7a48961996</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Complete Reservation AI</sys_name>
+        <sys_package display_value="PatMan" source="x_370654_patman">0d09deb1db223300b0235c7a48961976</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PatMan">0d09deb1db223300b0235c7a48961976</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_0490eb86db623300b0235c7a48961996</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-11 19:10:09</sys_updated_on>
+        <table>x_370654_patman_reservation</table>
+        <template>completed=true^EQ</template>
+        <type>update</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=0490eb86db623300b0235c7a48961996"/>
+</record_update>

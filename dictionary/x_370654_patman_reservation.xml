@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Reservation" max_length="40" name="x_370654_patman_reservation" type="collection">
+        <element label="Completed" max_length="40" name="completed" type="boolean"/>
+        <element label="Date" max_length="40" name="date" type="glide_date_time"/>
+        <element label="Doctor" max_length="32" name="doctor" reference="x_370654_patman_doctor" type="reference"/>
+        <element choice="2" display="true" label="Patient" max_length="32" name="patient" reference="x_370654_patman_patient" type="reference">
+            <choice/>
+        </element>
+        <element label="Symptom" max_length="32" name="symptom" reference="x_370654_patman_symptom" type="reference"/>
+        <index name="index">
+            <element name="doctor"/>
+        </index>
+        <index name="index2">
+            <element name="symptom"/>
+        </index>
+        <index name="index3">
+            <element name="patient"/>
+        </index>
+    </element>
+</database>
