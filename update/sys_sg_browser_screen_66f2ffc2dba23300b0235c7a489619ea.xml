@@ -7,8 +7,8 @@
         <external_browser>false</external_browser>
         <fetch_type>not_required</fetch_type>
         <hidden>false</hidden>
-        <icon display_value="file-alt">a2f27f42dba23300b0235c7a489619df</icon>
-        <name>Portal</name>
+        <icon display_value="file-alt">16699ce7db263300b0235c7a4896190a</icon>
+        <name>Visit Portal</name>
         <order>20</order>
         <parent>628bd78edb223300b0235c7a48961989</parent>
         <parent_table>sys_sg_folder</parent_table>
@@ -18,14 +18,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-07-11 20:14:04</sys_created_on>
         <sys_id>66f2ffc2dba23300b0235c7a489619ea</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Portal</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Visit Portal</sys_name>
         <sys_package display_value="PatMan" source="x_370654_patman">0d09deb1db223300b0235c7a48961976</sys_package>
         <sys_policy/>
         <sys_scope display_value="PatMan">0d09deb1db223300b0235c7a48961976</sys_scope>
         <sys_update_name>sys_sg_browser_screen_66f2ffc2dba23300b0235c7a489619ea</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-07-11 20:14:04</sys_updated_on>
+        <sys_updated_on>2019-07-15 20:14:03</sys_updated_on>
         <url>https://dev84536.service-now.com/patman</url>
     </sys_sg_browser_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=66f2ffc2dba23300b0235c7a489619ea"/>
