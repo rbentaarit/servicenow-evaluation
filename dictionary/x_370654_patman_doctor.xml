@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="live_feed=true" label="Doctor" max_length="40" name="x_370654_patman_doctor" type="collection">
         <element label="First Name" max_length="255" name="first_name" type="string_full_utf8"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#9;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return current.first_name+' '+current.last_name;  // return the calculated value&#13;&#10;&#13;&#10;})(current);" display="true" label="Full Name" max_length="50" name="full_name" read_only="true" type="string" virtual="true"/>
+        <element calculation="(function calculatedFieldValue(current) {&#10;&#9;&#10;&#9;// Add your code here&#10;&#9;return current.first_name+' '+current.last_name;  // return the calculated value&#10;&#10;})(current);" display="true" label="Full Name" max_length="50" name="full_name" read_only="true" type="string" virtual="true"/>
         <element label="Last Name" max_length="255" name="last_name" type="string_full_utf8"/>
         <element label="Location" max_length="40" name="location" type="string"/>
         <element label="Phone Number" max_length="40" name="phone_number" type="phone_number_e164"/>
